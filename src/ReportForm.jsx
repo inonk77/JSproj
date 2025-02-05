@@ -265,7 +265,7 @@ import React, { useState } from 'react';
 import { TextField, Button, Typography, Grid, Paper, Box, Container } from '@mui/material';
 import { Pie } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, CategoryScale, Title, Tooltip, Legend } from 'chart.js';
-import dbLibrary from './idbWrapper';
+import dbLibrary from './IdbWrapper.jsx';
 
 ChartJS.register(ArcElement, CategoryScale, Title, Tooltip, Legend);
 
